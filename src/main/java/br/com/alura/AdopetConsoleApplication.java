@@ -32,7 +32,6 @@ public class AdopetConsoleApplication {
                 PetService petService = new PetService(client);
 
                 if (opcaoEscolhida == 1) {
-
                     abrigoService.listarAbrigo();
                 } else if (opcaoEscolhida == 2) {
                     abrigoService.cadastrarAbrigo();
